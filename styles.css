@@ -1,3 +1,8 @@
+html {
+    background-color: #595959;
+}
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -11,6 +16,7 @@ body {
 h1 {
     font-size: 40px;
     color:rgb(255, 255, 255);
+    font-family: 'Caveat', cursive;
 }
 
 .parallax {
@@ -28,4 +34,38 @@ h1 {
 
 .parallax-3 {
     background-image: url("https://static.wikia.nocookie.net/jujutsu-kaisen/images/5/5a/Satoru_Gojo_arrives_on_the_battlefield_%28Anime%29.png/revision/latest?cb=20210226205256");
+}
+
+.parallax-4 {
+    background-image: url("https://i.ytimg.com/vi/gvusivjonlE/maxresdefault.jpg");
+}
+h2 {
+    font-size: 40px;
+    color:goldenrod
+}
+.end-image {
+    width: 700px;
+}
+h4 {
+    font-size: 50px;
+    color: yellow
+}
+.project {
+    height:1000px;
+    background-color:rgb(157, 0, 255);
+    font-size:36px;
+    padding: 50px 35px;
+}
+.linky {
+    text-decoration: none;
+    font-size: 40px;
+    color: #000000;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 5px;
+}
+.linky:hover{
+    border: 2px solid darkblue;
+    background-color: black;
+    color: blue;
 }
